@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Requester Dashboard | RescueRoute
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-light text-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+   <div class="container d-flex flex-wrap gap-3">
+    <a class="navbar-brand fw-bold" href="index.html">
+     ✚ RescueRoute
+    </a>
+    <div class="d-flex flex-wrap gap-2 align-items-center">
+     <a class="btn btn-sm btn-outline-light" href="index.html">
+      Home
+     </a>
+     <a class="btn btn-sm btn-outline-light" href="requester.html">
+      Requester
+     </a>
+     <a class="btn btn-sm btn-outline-light" href="volunteer.html">
+      Volunteer
+     </a>
+     <a class="btn btn-sm btn-outline-light" href="coordinator.html">
+      Coordinator
+     </a>
+     <a class="btn btn-sm btn-outline-light" href="admin.html">
+      Admin
+     </a>
+     <a class="btn btn-sm btn-light" href="login.html">
+      Login
+     </a>
+     <a class="btn btn-sm btn-warning" href="signup.html">
+      Sign Up
+     </a>
+    </div>
+   </div>
+  </nav>
+  <section class="bg-primary text-white py-5">
+   <div class="container py-4">
+    <span class="badge text-bg-warning mb-3">
+     Requester portal
+    </span>
+    <h1 class="display-5 fw-bold">
+     Request help, stay informed
+    </h1>
+    <p class="lead col-lg-8">
+     View emergency request information and see what a requester dashboard could look like.
+    </p>
+   </div>
+  </section>
+  <main class="container py-5">
+   <div class="row g-3 mb-4">
+    <div class="col-md-4">
+     <div class="card border-0 shadow-sm h-100">
+      <div class="card-body">
+       <div class="display-6 fw-bold text-primary">
+        02
+       </div>
+       <div class="text-secondary">
+        Example active requests
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4">
+     <div class="card border-0 shadow-sm h-100">
+      <div class="card-body">
+       <div class="display-6 fw-bold text-primary">
+        01
+       </div>
+       <div class="text-secondary">
+        Example completed requests
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4">
+     <div class="card border-0 shadow-sm h-100">
+      <div class="card-body">
+       <div class="display-6 fw-bold text-primary">
+        24/7
+       </div>
+       <div class="text-secondary">
+        Platform concept
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="row g-4">
+    <div class="col-lg-5">
+     <div class="card shadow-sm border-0">
+      <div class="card-body p-4">
+       <h2 class="h4">
+        New emergency request
+       </h2>
+       <form>
+        <label class="form-label mt-2">
+         Assistance needed
+        </label>
+        <select class="form-select">
+         <option>
+          Medical supplies
+         </option>
+         <option>
+          Food and water
+         </option>
+         <option>
+          Temporary shelter
+         </option>
+         <option>
+          Transport
+         </option>
+        </select>
+        <label class="form-label mt-3">
+         Location
+        </label>
+        <input class="form-control" placeholder="Area / city"/>
+        <label class="form-label mt-3">
+         Urgency
+        </label>
+        <select class="form-select">
+         <option>
+          Medium
+         </option>
+         <option>
+          High
+         </option>
+         <option>
+          Critical
+         </option>
+        </select>
+        <label class="form-label mt-3">
+         Details
+        </label>
+        <textarea class="form-control" placeholder="Describe the situation" rows="3"></textarea>
+        <button class="btn btn-primary mt-3" type="button">
+         Submit Request (demo only)
+        </button>
+       </form>
+      </div>
+     </div>
+    </div>
+    <div class="col-lg-7">
+     <h2 class="h4 mb-3">
+      My requests
+     </h2>
+     <div class="table-responsive">
+      <table class="table table-hover align-middle bg-white">
+       <thead class="table-light">
+        <tr>
+         <th>
+          ID
+         </th>
+         <th>
+          Need
+         </th>
+         <th>
+          Priority
+         </th>
+         <th>
+          Status
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          RR-104
+         </td>
+         <td>
+          Drinking water
+         </td>
+         <td>
+          High
+         </td>
+         <td>
+          Pending review
+         </td>
+        </tr>
+        <tr>
+         <td>
+          RR-102
+         </td>
+         <td>
+          Transport
+         </td>
+         <td>
+          Medium
+         </td>
+         <td>
+          Volunteer assigned
+         </td>
+        </tr>
+        <tr>
+         <td>
+          RR-095
+         </td>
+         <td>
+          Food package
+         </td>
+         <td>
+          Low
+         </td>
+         <td>
+          Completed
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class="alert alert-info">
+      All entries shown here are sample data.
+     </div>
+    </div>
+   </div>
+  </main>
+  <footer class="border-top bg-white py-4 mt-5">
+   <div class="container d-flex justify-content-between flex-wrap gap-2">
+    <span class="fw-semibold text-primary">
+     RescueRoute
+    </span>
+    <span class="text-secondary small">
+     Academic static UI prototype • Sample data only • Not an emergency service
+    </span>
+   </div>
+  </footer>
+ </body>
+</html>

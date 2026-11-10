@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Sign Up | RescueRoute
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-light text-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+   <div class="container d-flex flex-wrap gap-3">
+    <a class="navbar-brand fw-bold" href="index.html">
+     ✚ RescueRoute
+    </a>
+    <div class="d-flex flex-wrap gap-2 align-items-center">
+     <a class="btn btn-sm btn-outline-light" href="index.html">
+      Home
+     </a>
+     <a class="btn btn-sm btn-outline-light" href="requester.html">
+      Requester
+     </a>
+     <a class="btn btn-sm btn-outline-light" href="volunteer.html">
+      Volunteer
+     </a>
+     <a class="btn btn-sm btn-outline-light" href="coordinator.html">
+      Coordinator
+     </a>
+     <a class="btn btn-sm btn-outline-light" href="admin.html">
+      Admin
+     </a>
+     <a class="btn btn-sm btn-light" href="login.html">
+      Login
+     </a>
+     <a class="btn btn-sm btn-warning" href="signup.html">
+      Sign Up
+     </a>
+    </div>
+   </div>
+  </nav>
+  <main class="container py-5">
+   <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+     <div class="card border-0 shadow-sm">
+      <div class="card-body p-4 p-md-5">
+       <h1 class="h2 fw-bold">
+        Join RescueRoute
+       </h1>
+       <p class="text-secondary">
+        Create a profile to request help or support others.
+       </p>
+       <form>
+        <div class="row g-3">
+         <div class="col-md-6">
+          <label class="form-label" for="name">
+           Full name
+          </label>
+          <input class="form-control" id="name" placeholder="Your name"/>
+         </div>
+         <div class="col-md-6">
+          <label class="form-label" for="phone">
+           Phone
+          </label>
+          <input class="form-control" id="phone" placeholder="03XX XXXXXXX"/>
+         </div>
+         <div class="col-12">
+          <label class="form-label" for="email">
+           Email
+          </label>
+          <input class="form-control" id="email" placeholder="name@example.com" type="email"/>
+         </div>
+         <div class="col-12">
+          <label class="form-label" for="role">
+           Select role
+          </label>
+          <select class="form-select" id="role">
+           <option>
+            Requester
+           </option>
+           <option>
+            Volunteer
+           </option>
+           <option>
+            Coordinator (assigned by admin)
+           </option>
+           <option>
+            Admin (assigned by system)
+           </option>
+          </select>
+         </div>
+         <div class="col-md-6">
+          <label class="form-label" for="password">
+           Password
+          </label>
+          <input class="form-control" id="password" type="password"/>
+         </div>
+         <div class="col-md-6">
+          <label class="form-label" for="confirm">
+           Confirm password
+          </label>
+          <input class="form-control" id="confirm" type="password"/>
+         </div>
+         <div class="col-12">
+          <button class="btn btn-primary w-100" type="button">
+           Create Account (demo only)
+          </button>
+         </div>
+        </div>
+       </form>
+       <p class="text-secondary small mt-3 mb-0">
+        This is a static form. No information is submitted or stored.
+        <a href="login.html">
+         Already registered?
+        </a>
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </main>
+  <footer class="border-top bg-white py-4 mt-5">
+   <div class="container d-flex justify-content-between flex-wrap gap-2">
+    <span class="fw-semibold text-primary">
+     RescueRoute
+    </span>
+    <span class="text-secondary small">
+     Academic static UI prototype • Sample data only • Not an emergency service
+    </span>
+   </div>
+  </footer>
+ </body>
+</html>
